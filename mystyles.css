@@ -3,67 +3,77 @@
 a:link, a:visited {
     color:darkslategray;
     background-color:transparent;
-    font-family:Helvetica, Arial, sans-serif;
+    font-family:Helvetica,sans-serif,Arial;
     text-decoration:none;
 }
 
 a:hover, a:active {
     color:lightseagreen;
     background-color:transparent;
-    font-family:Helvetica, Arial, sans-serif;
+    font-family:Helvetica,sans-serif,Arial;
     text-decoration:none;
 }
 
 h1 {
-    margin: 20px;
+    margin:20px;
     color:cadetblue;
-    font-family:Garamond, Georgia, Times, serif;
+    font-family:Garamond,serif;
     font-weight:bold;
-    font: 36px;
+    font:36px;
 }
 
 h2 {
-    margin: 20px;
+    margin:20px;
     color:darkslateblue;
-    font-family:Garamond, Georgia, Times, serif;
+    font-family:Garamond,serif;
     font-weight:bold;
-    font: 24px;
+    font:30px;
 }
 
 p {
-    margin: 20px;
+    margin:20px;
+    line-height:10px;
     color:black;
-    font-family:Helvetica, Arial, sans-serif;
-    font: 12px;
+    font-family:Helvetica,sans-serif,Arial;
+    font:10px;
 }
 
 .page {
-    background-color:azure;
+    background-color:ivory;
     color:black;
-    font-family:Helvetica, Arial, sans-serif;
-    border: 4px solid black;
-    margin: 20px;
-    padding: 20px;
+    font-family:Helvetica,sans-serif,Arial;
+    line-height:150%;
+    border:4px solid black;
+    margin:20px;
+    padding:20px;
 }
 
-li.navigation {
+.navigation {
     display:inline;
     text-align:right;
-    margin: 20px;
-    line-height:20px;
+    margin:20px;
+    word-spacing:2cm;
     color:darkslategray;
-    font-family:Helvetica, Arial, sans-serif;
+    font-family:Helvetica,sans-serif,Arial;
     font-weight:bold;
     font-variant-caps:all-small-caps;
-    font: 16px;
+    font:16px;
 }
 
-li.contactlinks {
+.contactlinks {
     display:inline;
-    line-height:20px;
+    padding:20px;
+    width:30px;
+    height:30px;
+    margin:5px;
     color:black;
-    font-family:Helvetica, Arial, sans-serif;
-    font: 10px;
+    font-family:Helvetica,sans-serif,Arial;
+    font:10px;
+    text-decoration:none;
+}
+
+.contactlinks:hover {
+    opacity:0.7;
 }
 
 ol {
@@ -73,7 +83,7 @@ ol {
 .footer {
     text-align:center;
     color:black;
-    font-family:Helvetica, Arial, sans-serif;
-    font: 8px;
+    font-family:Helvetica,sans-serif,Arial;
+    font:6px;
 }
 
