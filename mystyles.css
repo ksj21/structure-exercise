@@ -50,7 +50,7 @@ p {
 
 .navigation {
     background-color:transparent;
-    border:transparent;
+    border:1px transparent;
     margin:10px;
     padding:10px;
     display:inline;
@@ -63,17 +63,19 @@ p {
     font:16px;
 }
 
-.contactlinks {
-    display:inline;
-    padding:20px;
-    margin:5px;
-    color:black;
-    font-family:Helvetica,sans-serif,Arial;
-    font:10px;
-    text-decoration:none;
+.column {
+    float:left;
+    width:33.33%;
+    padding:10px;
 }
 
-.contactlinks:hover {
+.row::after {
+    content:"";
+    clear:both;
+    display:table;
+}
+
+.icons:hover {
     opacity:0.7;
 }
 
