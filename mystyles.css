@@ -19,7 +19,7 @@ h1 {
     color:cadetblue;
     font-family:Garamond,serif;
     font-weight:bold;
-    font:36px;
+    font:40px;
 }
 
 h2 {
@@ -27,7 +27,7 @@ h2 {
     color:darkslateblue;
     font-family:Garamond,serif;
     font-weight:bold;
-    font:30px;
+    font:36px;
 }
 
 p {
@@ -39,7 +39,7 @@ p {
 }
 
 .page {
-    background-color:ivory;
+    background-color:linen;
     color:black;
     font-family:Helvetica,sans-serif,Arial;
     line-height:150%;
@@ -49,9 +49,12 @@ p {
 }
 
 .navigation {
+    background-color:transparent;
+    border:transparent;
+    margin:10px;
+    padding:10px;
     display:inline;
     text-align:right;
-    margin:20px;
     word-spacing:2cm;
     color:darkslategray;
     font-family:Helvetica,sans-serif,Arial;
@@ -63,8 +66,6 @@ p {
 .contactlinks {
     display:inline;
     padding:20px;
-    width:30px;
-    height:30px;
     margin:5px;
     color:black;
     font-family:Helvetica,sans-serif,Arial;
