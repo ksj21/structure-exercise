@@ -6,21 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Katherine J. | Structure Exercise</title>
     <style>
-        #Navigation {
+        #BodyText {
             font-family:Arial, Helvetica, sans-serif;
+            color:black;
+        }
+        
+        a:link, a:visited {
             color:darkslategray;
-            font: bold;
+            background-color:transparent;
+            font:bold;
+            text-decoration:none
+        }
+        a:hover, a:active {
+            color:lightseagreen;
+            background-color:transparent;
+            font:bold;
+            text-decoration:none
         }
     </style>
 </head>
 <body>
     <body style="background-color:silver;"></body>
     <header>
-        <p id="#Navigation"><a href="index.html"><b>Katherine J.</b></a></p>
+        <p><a href="index.html"><b>Katherine J.</b></a></p>
     <nav>
         <ul>
-         <li id="#Navigation"><a href="about.html">About</a></li>
-         <li id="#Navigation"><a href="contact.html">Contact</a></li>
+         <li><a href="about.html">About</a></li>
+         <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -28,15 +40,15 @@
     <div class="page">
         <h2 style="font-family:Arial, Helvetica, sans-serif;">About Me</h2>
         <ul>
-         <li style="font-family:Arial, Helvetica, sans-serif;">Emory BA, Psychology</li>
-         <li style="font-family:Arial, Helvetica, sans-serif;">Georgetown MBA</li>
-         <li style="font-family:Arial, Helvetica, sans-serif;">Born in S. Korea & Raised in Hong Kong</li>
-         <li style="font-family:Arial, Helvetica, sans-serif;">Based in Washington DC / New York City</li>
+         <li id="#BodyText">Emory BA, Psychology</li>
+         <li id="#BodyText">Georgetown MBA</li>
+         <li id="#BodyText">Born in S. Korea & Raised in Hong Kong</li>
+         <li id="#BodyText">Based in Washington DC / New York City</li>
         </ul>
     </div>
     
     <footer>
-     <p>&copy; 2021 Katherine J. |
+     <p style="font-family:Arial, Helvetica, sans-serif;""font-size:small">&copy; 2021 Katherine J. |
       <a href="https://github.com/ksj21/structure-exercise">source code</a>
      </p>
     </footer>
