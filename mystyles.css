@@ -48,14 +48,13 @@ p {
     padding:20px;
 }
 
-.navigation {
+.navbar {
     background-color:transparent;
     border:1px transparent;
-    margin:5px;
-    padding:5px;
+    margin:0px;
+    padding:0px;
     display:inline;
     text-align:right;
-    word-spacing:1cm;
     color:darkslategray;
     font-family:Helvetica,sans-serif,Arial;
     font-weight:bold;
@@ -63,16 +62,10 @@ p {
     font:16px;
 }
 
-.column {
-    float:left;
-    width:33.33%;
-    padding:10px;
-}
-
-.row::after {
-    content:"";
-    clear:both;
-    display:table;
+.icons {
+    display:inline;
+    border:10px transparent;
+    size:10%;
 }
 
 .icons:hover {
