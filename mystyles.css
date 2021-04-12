@@ -36,7 +36,7 @@ h3 {
     font-family:Helvetica,sans-serif,Arial;
     font-weight:bold;
     font-variant-caps:all-small-caps;
-    font:16px;
+    font:14px;
     display:inline;
     text-align:right;
 }
@@ -74,7 +74,7 @@ p {
     color:darkslategray;
     font-family:Helvetica,sans-serif,Arial;
     font-weight:bold;
-    word-spacing:1cm;
+    word-spacing:0.5cm;
     border:1px transparent;
     margin:20px;
     padding:5px;
@@ -85,6 +85,7 @@ p {
 img {
     display:inline;
     border:20px transparent;
+    height:50px;
 }
 
 img:hover {
@@ -98,6 +99,7 @@ ol {
 .footer {
     text-align:center;
     color:black;
+    font-size:6px;
     font-family:Helvetica,sans-serif,Arial;
 }
 
