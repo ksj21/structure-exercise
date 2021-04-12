@@ -46,6 +46,7 @@ h4 {
     color:black;
     font-family:Helvetica,sans-serif,Arial;
     font:6px;
+    font-weight:lighter;
     text-align:center;
 }
 
@@ -70,13 +71,15 @@ p {
 
 .navbar {
     background-color:transparent;
-    color:transparent;
+    color:darkslategray;
     font-family:Helvetica,sans-serif,Arial;
-    line-height:150%;
+    font-weight:bold;
     word-spacing:1cm;
     border:1px transparent;
     margin:20px;
     padding:5px;
+    display:inline;
+    text-align:right;
 }
 
 img {
